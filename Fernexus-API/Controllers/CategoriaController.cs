@@ -13,7 +13,8 @@ namespace Fernexus_API.Controllers
         [HttpGet]
         [SwaggerOperation(
             Summary = "Obtiene un listado con todas las categorías",
-            Description = "Este método obtiene todas las categorías y las devuelve como un listado."
+            Description = "Este método obtiene todas las categorías y las devuelve como un listado.<br>" +
+            "Si no se encuentra ninguna categoría devuelve un mensaje de error."
         )]
         public IEnumerable<string> Get()
         {
@@ -24,8 +25,8 @@ namespace Fernexus_API.Controllers
         [HttpGet("{idCategoria}")]
         [SwaggerOperation(
             Summary = "Obtiene los datos de una categoría asociada a un ID",
-            Description = "Este método recibe un ID y devuelve los datos de la categoría asociada a este." +
-            "Si no se encuentra ninguna categoría devuelve un mensaje de error"
+            Description = "Este método recibe un ID y devuelve los datos de la categoría asociada a este.<br>" +
+            "Si no se encuentra ninguna categoría devuelve un mensaje de error."
         )]
         public string Get(int idCategoria)
         {  
