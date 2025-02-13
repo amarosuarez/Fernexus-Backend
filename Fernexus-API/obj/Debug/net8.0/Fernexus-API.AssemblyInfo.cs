@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fernexus-API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97ed89267e5c0fb1fe6e6229d1dc5f78dbdc2948")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be898bd35db49bbac3a8a0a4d78c22cc5548aea6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fernexus-API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fernexus-API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

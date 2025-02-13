@@ -184,36 +184,14 @@
   },
   {
     "ContainingType": "Fernexus_API.Controllers.ProductoController",
-    "Method": "Post",
-    "RelativePath": "api/Producto",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "value",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Fernexus_API.Controllers.ProductoController",
     "Method": "Get",
-    "RelativePath": "api/Producto/{id}",
+    "RelativePath": "api/Producto/{idProducto}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "idProducto",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -232,49 +210,26 @@
   },
   {
     "ContainingType": "Fernexus_API.Controllers.ProductoController",
-    "Method": "Put",
-    "RelativePath": "api/Producto/{id}",
-    "HttpMethod": "PUT",
+    "Method": "GetByCategoria",
+    "RelativePath": "api/Producto/categoria/{idCategoria}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "idCategoria",
         "Type": "System.Int32",
         "IsRequired": true
-      },
+      }
+    ],
+    "ReturnTypes": [
       {
-        "Name": "value",
         "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Fernexus_API.Controllers.ProductoController",
-    "Method": "Delete",
-    "RelativePath": "api/Producto/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]
